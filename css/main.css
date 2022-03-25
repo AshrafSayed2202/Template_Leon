@@ -469,6 +469,14 @@ p.copy-menu{
     font-size: 30px;
     transition: 0.2s;
 }
+@media (max-width:441px) {
+    .contact .contact-content i{
+        font-size: 20px;
+    }
+    .contact .contact-content p{
+        margin-left: 40px;
+    }
+}
 .contact .contact-content a:first-child:hover i{
     color: #ce456c;
     opacity: 1;
