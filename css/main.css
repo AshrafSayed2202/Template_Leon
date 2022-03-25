@@ -208,6 +208,11 @@ p.copy-menu{
     text-align: center;
     line-height: 1.7;
 }
+@media (max-width:860px) {
+    .landing-text{
+        top: 5%;
+    }
+}
 .landing-text h1{
     color: var(--main-color);
     font-weight: 800;
