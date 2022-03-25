@@ -221,6 +221,14 @@ p.copy-menu{
     margin: auto;
     font-weight: 400;
 }
+@media (max-width:580px) {
+    .landing-text h1{
+        font-size: 30px;
+    }
+    .landing-text p{
+        font-size: 10px;
+    }
+}
 /* E Landing */
 /* S Features */
 .features{
