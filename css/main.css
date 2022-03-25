@@ -455,6 +455,11 @@ p.copy-menu{
     font-size: 40px;
     margin-left: 20px;
 }
+@media (max-width:498px) {
+    .contact a{
+        font-size: 20px;
+    }
+}
 .contact .contact-content p {
     margin-left: 70px;
 }
