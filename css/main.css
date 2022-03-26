@@ -404,6 +404,7 @@ p.copy-menu{
     max-width: 250px;
     height: fit-content;
     position: relative;
+    box-shadow: 13px 13px 50px -28px;
 }
 .about-content .image{
     position: relative;
