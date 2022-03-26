@@ -45,7 +45,7 @@ html{
 .special-heading{
     text-align: center;
     font-size: 100px;
-    color: #00000016;
+    color: #00000015;
     font-weight: 800;
     margin: 0;
 }
@@ -255,6 +255,16 @@ p.copy-menu{
     line-height: 2;
     padding: 45px;
 }
+@media (max-width:749px) {
+    .features .card{
+        width: calc(100%/2);
+    }
+}
+@media (max-width:500px) {
+    .features .card{
+        width: 100%;
+    }
+}
 .features .card i{
     color: var(--main-color);
     font-size: 45px;
@@ -428,6 +438,11 @@ p.copy-menu{
 .about-content .about-text{
     width: 50%;
 }
+@media (max-width:655px) {
+    .about-content .about-text{
+        width: 80%;
+    }
+}
 .about-content .about-text h2{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -487,7 +502,7 @@ p.copy-menu{
         font-size: 20px;
     }
     .contact .contact-content p{
-        margin-left: 40px;
+        margin-left: 50px;
     }
 }
 .contact .contact-content a:first-child:hover i{
