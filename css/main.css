@@ -435,6 +435,9 @@ p.copy-menu{
     .about-content .image::after {
         display: none;
     }
+    .about-content img{
+        box-shadow:none;
+    }
 }
 .about-content .about-text{
     width: 50%;
