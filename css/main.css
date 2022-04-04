@@ -60,6 +60,9 @@ html{
     color: #00000099;
     font-weight: 500;
 }
+.sect{
+    padding: 100px 0;
+}
 /* E Components */
 /* S Header */
 nav{
