@@ -146,12 +146,6 @@ header .menu-content{
 .menu{
     position: relative;
 }
-.menu:hover .menu-icon span:nth-child(2){
-    width: 100%;
-}
-.menu:hover .menu-content{
-    display: flex;
-}
 .menu-content dl{
     flex: 1;
     padding: 3px;
