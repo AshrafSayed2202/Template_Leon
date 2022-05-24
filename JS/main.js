@@ -10,3 +10,10 @@ xMark.onclick = function(){
     menu.style.display = "none";
     middleSpan.style.width = "66.6%"
 }
+let nav = document.querySelectorAll("dl dd");
+nav.forEach(function (ele) {
+    ele.onclick = function(){
+        menu.style.display = "none";
+        middleSpan.style.width = "66.6%";
+    }
+})
