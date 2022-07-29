@@ -158,6 +158,7 @@ header .menu-content{
     font-size: 18px;
     color: white;
     transition: 0.2s;
+    width: -moz-fit-content;
     width: fit-content;
 }
 .menu-content i:hover{
@@ -192,7 +193,7 @@ p.copy-menu{
     position: relative;
 }
 .landing-image{
-    height: calc(100vh - 90px);
+    height: calc(100vh + 60px);
     background-image: url(../media/landing.jpg);
     background-repeat: no-repeat;
     background-size: cover;
